@@ -7,10 +7,12 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul-degrade: #326589;
+    --azul: #002F52;
     --fonte-principal: 'Poppins', sans-serif;
 }
 
 body {
+    background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;

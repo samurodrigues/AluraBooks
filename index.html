@@ -77,6 +77,64 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
+
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+              <h3 class="descricao__titulo">Talvez você também se interesse por ...</h3>
+              <h2 class="descricao__titulo-livro">Angular 11 e firebase</h2>
+              <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+          <img src="./assets/angularCard.png" alt="Livro angular e firebase" class="descricao__imagem">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botoes__item"><img src="./assets/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+
+      <h2 class="carrossel__titulo">Mais vendidos</h2>
+
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./assets/Angular.png" alt="Livro sobre Angular"></div>
+          <div class="swiper-slide"><img src="./assets/Nodejs.png" alt="Livro sobre NodeJS"></div>
+          <div class="swiper-slide"><img src="./assets/ReactNative.png" alt="Livro sobre ReactNative"></div>
+          <div class="swiper-slide"><img src="./assets/Guia Front-end.png" alt="Livro Guia Front-end"></div>
+          <div class="swiper-slide"><img src="./assets/Javascript.png" alt="Livro sobre Javascript"></div>
+          <div class="swiper-slide"><img src="./assets/Tuning.png" alt="Livro sobre SQL"></div>
+        </div>
+        
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card__descricao perfil">
+          <div class="descricao">
+              <h3 class="descricao__titulo stars">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
+              <h3 class="descricao__titulo">Autora do Mês</h3>
+              <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+              <p class="descricao__texto">Analista de sistema e escritora, Juliana é especialista em Front-End</p>
+            </div>
+          <img src="./assets/perfil.png" alt="Livro angular e firebase" class="descricao__imagem">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botoes__item"><img src="./assets/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -87,7 +145,7 @@
         pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
-      },
+        },
       });
     </script>
   </body>
