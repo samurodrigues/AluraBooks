@@ -8,10 +8,12 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --preto: #000000;
     --laranja: #EB9B00;
     --azul-degrade: #326589;
     --azul: #002F52;
     --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
 }
 
 body {
