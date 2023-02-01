@@ -69,6 +69,10 @@
     display: none;
 }
 
+.link__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho__menu-hamburguer {
         display: none;
@@ -112,4 +116,28 @@
     display: none;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-menu {
+        padding-left: 45em;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .link__texto {
+        display: block;
+    }
 }
