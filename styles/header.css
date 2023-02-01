@@ -106,13 +106,10 @@
 
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
-        position: absolute;
-        top: 10vh;
-        left: 32%;
-        width: 20em;
     }
 
     .opcoes__botao {
     display: none;
     }
+
 }
